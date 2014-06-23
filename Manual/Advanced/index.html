@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://KinGUII.github.io">
+  <meta name="twitter:title" content="8 Shortcuts for advanced users">
+  <meta name="twitter:description" content="Shortcuts for advanced users">
+  <meta name="twitter:image" content="http://KinGUII.github.io/images/ramnath.jpg">
+  <meta name="twitter:site" content="@KinGUII">
+  <meta name="twitter:creator" content="@KinGUII">
+  
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+    <title>
+        8 Shortcuts for advanced users &middot; KinGUII
+      </title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/poole.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/syntax.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/lanyon.css">
+    <link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/solarized_light.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+    <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato:400' type='text/css'> -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="../../libraries/frameworks/lanyon/public/favicon.ico">
+  
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    
+    <!-- Source: http://developerdrive.developerdrive.netdna-cdn.com/wp-content/uploads/2013/07/scroll-to-top.html 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  
+    <style>
+  	.back-to-top {
+  		position: fixed;
+  		bottom: 2em;
+  		right: 5px;
+  		text-decoration: none;
+  		color: #000000;
+  		background-color: rgba(235, 235, 235, 0.80);
+  		font-size: 12px;
+  		padding: 1em;
+  		display: none;
+  	}
+  
+  	.back-to-top:hover {	
+  		background-color: rgba(135, 135, 135, 0.50);
+  	}	
+  	</style>
+    -->
+  </head>  
+  
+
+  <body class='theme-base-0c layout-reverse'>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+         styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>KinGUII makes it easy to create, customize and evaluate kinetic models.
+</p>
+      </div>
+    
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item active" href="/">
+          <i class='fa fa-home'> </i>  Home
+        </a>
+        <!-- <a class="sidebar-nav-item" href="/archive/v.zip">
+          <i class='fa fa-download'> </i>  Download
+        </a> -->
+        <a class="sidebar-nav-item" href="/blog">
+      <i class='fa fa-bullhorn'> </i>  NEWS
+    </a>
+    <a class="sidebar-nav-item" href="/publications">
+      <i class='fa fa-hand-o-right'> </i>  Manual
+    </a>
+    <a class="sidebar-nav-item" href="/projects">
+      <i class='fa fa-puzzle-piece'> </i>  Example Projects
+    </a>
+    <a class="sidebar-nav-item" href="/software">
+      <i class='fa fa-info-circle'> </i>  About KinGUII
+    </a>
+    <a class="sidebar-nav-item" href="/research">
+      <i class='fa fa-cogs'> </i>  Development
+    </a>
+    <a class="sidebar-nav-item" href="">
+          <i class='fa fa-github'> </i> GitHub
+        </a>
+        <!-- <span class="sidebar-nav-item">Currently v</span> -->
+      </nav>
+    
+      <div class="sidebar-item">
+        <p>
+          &copy; 2014. All rights reserved.
+        </p>
+      </div>
+    </div>    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">KinGUII</a>
+            <small>Kinetic Evaluations with a Graphical User Interface</small>
+            <div style='float:right;'>
+            <a href="/blog">
+              <i class='fa fa-bullhorn' title="NEWS"> </i>
+            </a>
+            <a href="http://kinguii.vrbka.net/KinGUIIv2.1.zip">
+              <i class='fa fa-download' title="Download"> </i>
+            </a>
+			<a href="/publications">
+              <i class='fa fa-hand-o-right' title="Getting Started"> </i>
+            </a>
+            <a href="http://github.com/KinGUII">
+              <i class='fa fa-github'> </i>
+            </a>
+            </div>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+          <h1 class="post-title">8 Shortcuts for advanced users</h1>
+          <span class="post-date">2014-01-01</span>
+          <h2>8.1  Different kinetics for the same residue data</h2>
+<p>Quite frequently, the same data set has to be evaluated with several different kinetics for the parent. In this case, the user can proceed as follows:</p>
+
+<ul>
+<li>  Open the kinetic input window for parent</li>
+<li>  Double-click on &quot;Kinetic Parameters and State Variables&quot; - a list will appear on the right side</li>
+<li>  In this list, select the required kinetics (set the value to &quot;True&quot;). </li>
+<li>  Change the default values of the kinetics (initial values, boundaries) to reasonable estimates. </li>
+</ul>
+
+<p><img src="../../images/shortcuts.PNG" width="650px"/></p>
+
+<p>After running the model, View -&gt; Results will open a result window for each kinetics and an additional window with a comparison of the selected kinetics.
+Note: Re-opening the kinetic input window or the list within the window resets the choice of the parent kinetics to the single kinetics shown in the kinetic input window. To review the selected kinetics without a reset, check whether an R-Script is created for each of the desired kinetics (View -&gt; Rscript, then select Parent SFO /Parent DFOP / Parent HS / Parent FOMC). </p>
+
+<h2>8.2   Different residue data files with the same model structure</h2>
+
+<p>It frequently occurs that the same model structure can be used for different data sets, e.g. if several trials are available for the same active substance. For an automated evaluation of all data sets, the user can proceed as follows:</p>
+
+<ul>
+<li>  Put the residue data files into the same directory. Make sure that they have the same column names and that no other .txt files are in the directory. </li>
+<li>  Load one of the residue data files and implement the desired model structure. Different parent kinetics may also be used, as described in section 8.1.</li>
+<li>  Save the model into an xml file (File -&gt; Save -&gt; KinGUII model). The xml file should be located in the same folder as the .txt files.</li>
+<li>  Close KinGUII.</li>
+<li>  Open KinGUI, click Data -&gt;Scan multi .txt files and select the xml file. This creates R-files for all data sets and selected kinetics, and batch files to execute these files.</li>
+<li>  Execute the created .bat files.</li>
+<li>  To view the results: Open a new instance of the KinGUIIResultViewer (..\KinGUIIv2.1\GUI\KINGUIIResultViewer.exe). Select the desired R-file(s) via File  &gt; R Script File. </li>
+<li>  Note that the same initial parameter values are used for each data file. Therefore, the optimizer may only find a local optimum especially in case of more complex pathways. </li>
+</ul>
+
+<h2>8.3  Stepwise fitting approach</h2>
+
+<p>In a stepwise fitting approach, compartments or substances are gradually added to the model. KinGUII can perform a stepwise approach based on a single data file, because not all columns need to be assigned to compartments.
+The KinGUII functions &quot;get initial values&quot; and &quot;reassign residue data&quot; facilitate stepwise fitting:</p>
+
+<p>Get initial values
+The parameter values obtained from one fit (e.g. for parent only) can be assigned as initial values to another fit (e.g. for parent &amp; metabolite) by using Data -&gt; Get initial values.</p>
+
+<p>Reassign residue data
+In order to include further columns of the same data file into the evaluation, use
+Data -&gt; Reassign residue data</p>
+
+<style>
+ p {text-align: justify;}
+</style>
+
+        </div>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'KinGUII'; // required: replace example with your forum shortname
+        
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>        
+      </div>
+      <!-- <a href="#" class="back-to-top">Back to Top</a> -->
+    </div>
+  
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '53207fc1e32bb4498d004943');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>  </body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
