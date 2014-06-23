@@ -8,7 +8,7 @@ description: >
 url: "http://KinGUII.github.io/"
 author:
   name: "Zhenglei Gao"
-  github: "zhenglei-gao"
+  github: "KinGUII"
 
 sidebar:
   - {item: NEWS, href: '/blog', icon: 'bullhorn'}
